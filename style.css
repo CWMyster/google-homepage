@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
     font-size: 14px;
@@ -14,41 +14,30 @@ display: flex;
 
 .flexbox-container
 {
+
     display: flex;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
     /*flex-direction: row;*/
 
 
 }
 .flexbox-item{
-    width: 100px;
+    width: 20px;
+    
 }
-.flexbox-about
+.flexbox-left
 { 
     align-self: flex-start;
 }
-
-.flexbox-store 
-{
-    flex: inherit;
-}
-.flexbox-auto{
-    flex: inherit;
-}
-.flexbox-images{
-    flex: auto;
-    }
-.flexbox-avatar {
-    
-    align-self: flex-end;
-}
-
 
 
 #avatar{
     height: 30px;
     margin-right: 0;
     padding-left: 90px;
+    align-self: flex-end;
 }
 a{
     text-decoration: none;
@@ -94,10 +83,9 @@ input{
     margin: auto;
     display: block;
     align-self: center;
-    padding: 25px;*/
-.i class{
-    font-family: ;
-}
+    padding: 25px;}*/
+
+
 
 #search-field{
     display: block;
