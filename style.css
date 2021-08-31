@@ -1,23 +1,67 @@
-#header {
+
+
+body {
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/*#header {
 float: center;
 width: 100%;
 display: flex;
-}
+}*/
 
-#box-container
+.flexbox-container
 {
     display: flex;
-    height: 200px;
+    padding: 1rem;
+    justify-content: space-between;
+
+
+    /*flex-direction: row;*/
+
+
 }
-header #about
+.flexbox-item{
+    width: 200px;
+    
+}
+.flexbox-about
 {
-display: flex;
-height:34px;
+    
+    align-self: flex-start;
+
 }
 
-header #home {
-display: flex;
+.flexbox-store 
+{
+    
+    flex: inherit;
+
+
 }
+.flexbox-gmail{
+    flex: auto;
+}
+.flexbox-avatar {
+    
+    align-self: flex-end;
+}
+
+.flexbox-images{
+    display: flex;
+    }
+
+.flexbox-avatar{
+    align-self: flex-end;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 
 #logo {
   
@@ -35,11 +79,7 @@ display: flex;
     max-width: 500px;
 }
 
-#searchfield {
 
-    
-    
-}
 
 input{
     border-radius: 100px;
@@ -48,4 +88,47 @@ input{
     display: block;
     width: 338px;
     height: 34px;
+}
+
+
+/*#buttons
+{
+    display: flex;
+    margin: auto;
+    display: block;
+    align-self: center;
+    padding: 25px;*/
+
+
+
+
+#button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-button{
+    justify-content: center;
+}
+.lucky-button {
+    justify-content: center;
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    /*justify-content: center;
+   
 }
