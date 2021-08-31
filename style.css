@@ -3,7 +3,7 @@
 body {
     font-size: 14px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
 }
 
 /*#header {
@@ -16,45 +16,39 @@ display: flex;
 {
     display: flex;
     padding: 1rem;
-    justify-content: space-between;
-
-
     /*flex-direction: row;*/
 
 
 }
 .flexbox-item{
-    width: 200px;
-    
+    width: 100px;
 }
 .flexbox-about
-{
-    
+{ 
     align-self: flex-start;
-
 }
 
 .flexbox-store 
 {
-    
     flex: inherit;
-
-
 }
-.flexbox-gmail{
+.flexbox-auto{
+    flex: inherit;
+}
+.flexbox-images{
     flex: auto;
-}
+    }
 .flexbox-avatar {
     
     align-self: flex-end;
 }
 
-.flexbox-images{
-    display: flex;
-    }
 
-.flexbox-avatar{
-    align-self: flex-end;
+
+#avatar{
+    height: 30px;
+    margin-right: 0;
+    padding-left: 90px;
 }
 a{
     text-decoration: none;
@@ -67,7 +61,6 @@ a:hover{
 #logo {
   
     margin-top: 100px;
-   
     
 }
 
@@ -91,7 +84,10 @@ input{
     height: 34px;
 }
 
-
+#search-icon{
+    
+    position: relative;
+}
 /*#buttons
 {
     display: flex;
@@ -99,9 +95,13 @@ input{
     display: block;
     align-self: center;
     padding: 25px;*/
+.i class{
+    font-family: ;
+}
 
-
-
+#search-field{
+    display: block;
+}
 
 #button-container{
     display: flex;
@@ -132,30 +132,33 @@ button{
     user-select: none;
     /*justify-content: center;*/
 }
-.list-item-right{
-    float: right;
+
+form{
+    padding: 0 100px
+}
+input{
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    text-align: center;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
     
 }
-    .nav-footer{
-        position: fixed;
-        bottom: 25px;
-        left: 0px;
-        width: 100%;
+nav li{
+    display: inline;
+    
+    padding: 14px;
+    float: left;
+}
 
-    }
-    nav ul {
-        list-style-type: none;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 0px;
-      }
-      nav li {
-           
-          display: block;
-          padding: 8px;
-          background-color: #dddddd;
-          position: relative;
-          float: left;
-          
-      }
-  
+.float-right{
+    float: right;
+}

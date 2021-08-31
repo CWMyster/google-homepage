@@ -2,10 +2,11 @@
 <html>
 
 <head>
+    <title>Google home</title>
     <link rel="stylesheet" href="style.css">
-    <span class="material-icons-outlined">
-        search
-    </span>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
 
 </head>
 
@@ -16,7 +17,7 @@
         <div class="flexbox-item flexbox-store">Store</div>
         <div class="flexbox-item flexbox-gmail">Gmail</div>
         <div class="flexbox-item flexbox-images">Images</div>
-        <div class="flexbox-item flexbox-avatar list-item-right">Avatar temp</div>
+        <div class="flexbox-item flexbox-avatar float-right"><img id="avatar" src="assets/avatar.png" alt="avatar"></div>
     </div>
 
 
@@ -26,8 +27,13 @@
     </div>
 
 
-    <div id="searchfield">
-        <input type="text">
+    <div id="search-field">
+        <form>
+                <input type="text" name="" class="material-icons"
+                placeholder="search microphone"> 
+                
+            </form>
+               
     </div>
     <div id="button-container">
         <div class="search-button"></div> <button type="submit">Google Search</button>
@@ -35,12 +41,12 @@
         </div>
     </div>
     <footer>
-        <nav class="nav-footer">
+        <nav>
             <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li."list-item-right"><a href="contact.asp">Contact</a></li>
-                <li class="list-item-right"><a href="about.asp"></li>About</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Buisness</a></li>
+                <li><a href="#">How Search Works</a></li>
+                <li class="float-right"><a href="#">Privacy</a></li>
             </ul>
         </nav>
     </footer>
