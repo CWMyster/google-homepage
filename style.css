@@ -1,0 +1,51 @@
+#header {
+float: center;
+width: 100%;
+display: flex;
+}
+
+#box-container
+{
+    display: flex;
+    height: 200px;
+}
+header #about
+{
+display: flex;
+height:34px;
+}
+
+header #home {
+display: flex;
+}
+
+#logo {
+  
+    margin-top: 100px;
+   
+    
+}
+
+
+.smaller-image
+{  
+    margin: auto;
+    content: center;
+    display: block;
+    max-width: 500px;
+}
+
+#searchfield {
+
+    
+    
+}
+
+input{
+    border-radius: 100px;
+    margin: auto;
+    content: center;
+    display: block;
+    width: 338px;
+    height: 34px;
+}
